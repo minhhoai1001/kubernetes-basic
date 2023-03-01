@@ -1,5 +1,5 @@
 # Kubernetes Basic
-Source: [Xuan Quynh](https://viblo.asia/s/kubernetes-series-bq5QL8QGlD8)
+Source: [Quân Huỳnh](https://viblo.asia/s/kubernetes-series-bq5QL8QGlD8)
 
 ## 1. Kubernetes là gì? 
 Kubernetes (hay k8s) là một nền tảng open-source được dùng để quản lý container và được phát triển bởi google. Có thể dùng kubernetes để phát triển ứng dụng trên nhiều nền tảng khác nhau như on-premise, cloud, or virtual machines. Hiện nay kubernetes được sử dụng bởi nhiều công ty lớn trong việc vận hành phần mền, phát triển ứng dụng và có cộng đồng rất lớn.
