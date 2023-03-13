@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: data
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 500Mi # size of the storage
+  accessModes: # access mode
+    - ReadWriteOnce # can be mounted by a single wokrer node for reading and writing
+    - ReadOnlyMany # can be mounted by a multiple wokrer node for reading only
+  hostPath:
+    path: "/mnt/data"
